@@ -17,7 +17,6 @@ const Projects = () => {
       icon: Truck,
       technologies: ['React', 'Node.js', 'Express', 'Database'],
       github: 'https://github.com/aasmitha01',
-      demo: '#',
       gradient: 'from-blue-600 to-cyan-600',
     },
   ];
