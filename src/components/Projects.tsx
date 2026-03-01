@@ -1,16 +1,16 @@
 import { Github, ExternalLink, ShoppingCart, Truck } from 'lucide-react';
-
+import { DollarSign } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: 'GroShop',
-      description: 'A modern UI/UX grocery shopping application designed with Figma. Features intuitive navigation, product categorization, and a seamless checkout experience.',
-      icon: ShoppingCart,
-      technologies: ['Figma', 'UI/UX Design', 'Prototyping'],
-      github: 'https://github.com/aasmitha01',
-      demo: '#',
-      gradient: 'from-green-600 to-emerald-600',
-    },
+  title: 'SpendSense – Personal Finance Dashboard',
+  description: 'A full-stack personal finance management application for tracking income, expenses, budgets, and savings goals with secure JWT authentication and real-time data integration.',
+  icon: DollarSign,
+  technologies: ['React', 'Node.js', 'Express', 'Supabase', 'JWT', 'Axios', 'Vercel'],
+  github: 'https://github.com/aasmitha01/SpendSense',
+  demo: 'https://aa-spendsense.netlify.app',
+  gradient: 'from-indigo-600 to-purple-600',
+},
     {
       title: 'Fleet Management Application',
       description: 'A comprehensive fleet management system for tracking vehicles, maintenance schedules, and driver assignments. Built with React and Node.js.',
