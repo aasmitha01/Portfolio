@@ -53,9 +53,9 @@ const Hero = () => {
           <div className="space-y-6">
             <div className="space-y-2">
               <p className="text-blue-400 font-medium text-lg">Hello, I'm</p>
-              <h1 className="text-5xl md:text-6xl font-bold text-white">
+              <h2 className="text-5xl md:text-6xl font-bold text-white">
                 Aasmitha Tommandru
-              </h1>
+              </h2>
               <div className="text-2xl md:text-3xl text-gray-300 h-10">
                 <span>{typedText}</span>
                 <span className="animate-pulse">|</span>
@@ -69,7 +69,7 @@ const Hero = () => {
 
             <div className="flex flex-wrap gap-4">
               <a
-                href="https://drive.google.com/file/d/1M7qsm9BrTqzyBcpeQdNNk3gHGlx7vHEi/view?usp=sharing"
+                href="https://drive.google.com/file/d/1hTU_Mb8i0jNxZOp6rjMt4uNc-RphBz4P/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors"

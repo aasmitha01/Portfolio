@@ -36,20 +36,15 @@ const About = () => {
             </h3>
 
             <p className="text-gray-400 leading-relaxed">
-              Computer Science undergraduate and aspiring Full Stack Web Developer
-              skilled in React, Node.js, Java, and UI/UX design. Passionate about
-              building responsive and user-friendly web applications.
-            </p>
+Computer Science Engineering student and aspiring Full Stack Web Developer with hands-on experience in React.js, Node.js, Express.js, JavaScript, HTML, CSS, and modern database technologies. Passionate about building responsive, user-friendly web applications and creating efficient solutions that deliver a seamless user experience.                </p>
 
             <p className="text-gray-400 leading-relaxed">
-              Experienced in frontend and backend technologies, database management
-              with Supabase and Oracle SQL, and creating intuitive user interfaces
-              using Figma.
+              Completed Full Stack Web Development training and developed projects such as SpendSense, a personal finance tracking application, and NeuroFleetX, an AI-powered urban fleet and traffic intelligence system. Enthusiastic about problem-solving and continuous learning, with experience solving 250+ coding problems and strengthening skills in Data Structures & Algorithms, Java, and modern web development technologies.
             </p>
 
             {/* Resume Button */}
             <a
-              href="https://drive.google.com/file/d/1M7qsm9BrTqzyBcpeQdNNk3gHGlx7vHEi/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1hTU_Mb8i0jNxZOp6rjMt4uNc-RphBz4P/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors"

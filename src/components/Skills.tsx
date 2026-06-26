@@ -1,38 +1,56 @@
-import { Code, Server, Database, Wrench, Palette } from 'lucide-react';
+import { Code, Server, Database, Wrench, Palette, Brain,Terminal,Cloud } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
-    {
-      title: 'Frontend',
-      icon: Code,
-      skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind CSS'],
-      color: 'from-blue-600 to-cyan-600',
-    },
-    {
-      title: 'Backend',
-      icon: Server,
-      skills: ['Node.js', 'Express.js', 'RESTful APIs'],
-      color: 'from-green-600 to-emerald-600',
-    },
-    {
-      title: 'Database',
-      icon: Database,
-      skills: ['Supabase', 'Oracle SQL', 'PostgreSQL'],
-      color: 'from-purple-600 to-pink-600',
-    },
-    {
-      title: 'Tools',
-      icon: Wrench,
-      skills: ['Git', 'GitHub', 'VS Code', 'Postman', 'npm'],
-      color: 'from-orange-600 to-red-600',
-    },
-    {
-      title: 'UI/UX',
-      icon: Palette,
-      skills: ['Figma', 'Responsive Design', 'Wireframing'],
-      color: 'from-indigo-600 to-blue-600',
-    },
-  ];
+  {
+    title: 'Programming Languages',
+    icon: Terminal,
+    skills: ['Java', 'Python', 'JavaScript', 'C'],
+    color: 'from-purple-600 to-indigo-600',
+  },
+  {
+    title: 'Frontend',
+    icon: Code,
+    skills: ['HTML', 'CSS', 'JavaScript', 'React.js', 'Tailwind CSS'],
+    color: 'from-blue-600 to-cyan-600',
+  },
+  {
+    title: 'Backend',
+    icon: Server,
+    skills: ['Node.js', 'Express.js', 'REST APIs'],
+    color: 'from-green-600 to-emerald-600',
+  },
+  {
+    title: 'Database',
+    icon: Database,
+    skills: ['Supabase', 'Oracle SQL', 'MySQL'],
+    color: 'from-purple-600 to-pink-600',
+  },
+  {
+    title: 'Cloud & Services',
+    icon: Cloud,
+    skills: ['Firebase', 'Supabase', 'Authentication'],
+    color: 'from-sky-600 to-blue-600',
+  },
+  {
+    title: 'Tools',
+    icon: Wrench,
+    skills: ['Git', 'GitHub', 'VS Code', 'Postman', 'npm'],
+    color: 'from-orange-600 to-red-600',
+  },
+  {
+    title: 'UI/UX',
+    icon: Palette,
+    skills: ['Figma', 'Responsive Design', 'Wireframing'],
+    color: 'from-indigo-600 to-blue-600',
+  },
+  {
+    title: 'Problem Solving',
+    icon: Brain,
+    skills: ['Data Structures', 'Algorithms', 'OOP Concepts', '250+ Problems Solved'],
+    color: 'from-pink-600 to-rose-600',
+  },
+];
 
   return (
     <section id="skills" className="py-20 bg-slate-800">

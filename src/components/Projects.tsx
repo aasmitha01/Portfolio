@@ -4,21 +4,24 @@ const Projects = () => {
   const projects = [
     {
   title: 'SpendSense – Personal Finance Dashboard',
-  description: 'A full-stack personal finance management application for tracking income, expenses, budgets, and savings goals with secure JWT authentication and real-time data integration.',
+  description:
+    'A full-stack personal finance management application that helps users track income, expenses, budgets, and savings goals with secure authentication, analytics, transaction history, and data export features.',
+  technologies: ['React.js', 'Node.js', 'Express.js', 'Supabase', 'JWT'],
+  github: 'https://github.com/aasmitha01/Personal-Finance-Dashboard-Frontend',
+  demo: '#',
   icon: DollarSign,
-  technologies: ['React', 'Node.js', 'Express', 'Supabase', 'JWT', 'Axios', 'Vercel'],
-  github: 'https://github.com/aasmitha01/SpendSense',
-  demo: 'https://aa-spendsense.netlify.app',
-  gradient: 'from-indigo-600 to-purple-600',
+  gradient: 'from-purple-600 to-pink-600',
 },
     {
-      title: 'Fleet Management Application',
-      description: 'A comprehensive fleet management system for tracking vehicles, maintenance schedules, and driver assignments. Built with React and Node.js.',
-      icon: Truck,
-      technologies: ['React', 'Node.js', 'Express', 'Database'],
-      github: 'https://github.com/aasmitha01',
-      gradient: 'from-blue-600 to-cyan-600',
-    },
+  title: 'NeuroFleetX – AI Powered Urban Fleet & Traffic Intelligence',
+  description:
+    'An intelligent fleet management and traffic monitoring system that helps track vehicles, analyze traffic patterns, monitor fleet performance, and improve urban transportation efficiency using data-driven insights.',
+  technologies: ['Java', 'Spring Boot', 'MySQL', 'REST APIs'],
+  github: 'https://github.com/aasmitha01/NeuroFleetX',
+  demo: '#',
+  icon: Truck,
+  gradient: 'from-blue-600 to-cyan-600',
+},
   ];
 
   return (

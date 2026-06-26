@@ -1,26 +1,32 @@
-import { Award, Trophy, Star, Code2 } from 'lucide-react';
+import { Award, Trophy, Star, Code2 , GraduationCap} from 'lucide-react';
 
 const Achievements = () => {
   const achievements = [
-    {
-      title: 'CodeChef Silver Badge',
-      description: 'Achieved Silver Badge on CodeChef through consistent problem-solving and competitive programming',
-      icon: Trophy,
-      gradient: 'from-gray-400 to-gray-600',
-    },
-    {
-      title: 'LeetCode 65+ Problems',
-      description: 'Successfully solved over 65 coding problems on LeetCode covering data structures and algorithms',
-      icon: Code2,
-      gradient: 'from-orange-500 to-yellow-500',
-    },
-    {
-      title: 'HackerRank Java Certification',
-      description: 'Earned Java programming certification from HackerRank demonstrating proficiency in Java concepts',
-      icon: Award,
-      gradient: 'from-green-600 to-emerald-600',
-    },
-  ];
+  {
+    title: 'CodeChef Diamond Streak Badge',
+    description: 'Maintained a 100-day coding streak on CodeChef, demonstrating consistency and dedication to problem-solving.',
+    icon: Trophy,
+    gradient: 'from-yellow-500 to-amber-600',
+  },
+  {
+    title: '250+ Problems Solved',
+    description: 'Solved 250+ coding problems across CodeChef, HackerRank, and LeetCode, strengthening DSA and problem-solving skills.',
+    icon: Code2,
+    gradient: 'from-orange-500 to-red-500',
+  },
+  {
+    title: 'Masai Full Stack Certification',
+    description: 'Completed Full Stack Web Development training covering React.js, Node.js, Express.js, Firebase, Supabase, and project development.',
+    icon: Award,
+    gradient: 'from-green-600 to-emerald-600',
+  },
+  {
+    title: 'Java Internship Completion',
+    description: 'Successfully completed a Java Internship and developed projects including a To-Do List Application and Expense Tracker.',
+    icon: GraduationCap,
+    gradient: 'from-blue-600 to-cyan-600',
+  },
+];
 
   return (
     <section id="achievements" className="py-20 bg-slate-900">
